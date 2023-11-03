@@ -30,7 +30,7 @@ main() {
 
   #check if the wordlist exists
   if [ ! -f "$wordlist" ]; then
-    echo "Wordlist file not found: $wordlist"
+    echo "Wordlist not found: $wordlist"
     exit 1
   fi
 
