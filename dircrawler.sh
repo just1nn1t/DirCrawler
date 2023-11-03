@@ -11,9 +11,9 @@ scandir() {
 
     #check if the HTTP response code is 200 (OK)
     if [ "$response" -eq 200 ]; then
-      echo -e "[\e[32m+\e[0m] [+] Directory found: $url"
+      echo -e "\e[32m[+] \e[32mDirectory \e[32mfound\e[0m: $url"
     else
-      echo -e " [\e[91m-\e[0m] [-] Directory not found: $url"
+      echo -e "\e[91m[+] \e[91mDirectory \e[91mnot \e[91mfound\e[0m: $url"
     fi
   done < "$wordlist"
 }
