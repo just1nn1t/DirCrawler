@@ -4,12 +4,12 @@ scandir() {
   baseurl="$1"
   wordlist="$2"
 
-  # Loop through dirs from wordlist
+  #loop through dirs from wordlist
   while IFS= read -r directory; do
     url="$baseurl/$directory"
     response=$(curl -s -o /dev/null -w "%{http_code}" "$url")
 
-    # Check if the HTTP response code is 200 (OK)
+    #check if the HTTP response code is 200 (OK)
     if [ "$response" -eq 200 ]; then
       echo "Directory found: $url"
     fi
@@ -25,13 +25,13 @@ main() {
   baseurl="$1"
   wordlist="$2"
 
-  # Check if the wordlist exists
+  #check if the wordlist exists
   if [ ! -f "$wordlist" ]; then
     echo "Wordlist file not found: $wordlist"
     exit 1
   fi
 
-  # Check if the 'curl' command is available
+  #check if the 'curl' command is available
   if ! command -v curl &> /dev/null; then
     echo "curl is required but not installed. Please install curl."
     exit 1
