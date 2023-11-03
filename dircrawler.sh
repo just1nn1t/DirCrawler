@@ -11,7 +11,7 @@ scandir() {
 
     #check if the HTTP response code is 200 (OK)
     if [ "$response" -eq 200 ]; then
-      echo "Directory found: $url"
+      echo " [+] Directory found: $url"
     fi
   done < "$wordlist"
 }
