@@ -4,17 +4,21 @@ Dircrawler is a bash script that allows you to scan a website for directories an
 
 ## Installation
 
-'''bash
+```bash
+
 git clone https://github.com/just1nn1t/dircrawler.git
-'''
+
+```
 
 ## Usage 
 
-'''python
+```python
+
 chmod +x dircrawler.sh
 
-./script.sh http://example.com directories.txt
-'''
+./script.sh http://example.com dirs.txt
+
+```
 
 # Warning:
-Only use this software according to your current legislation. Misuse of this software can raise legal and ethical issues which I don't support nor can be held responsible fo
+Only use this software according to your current legislation. Misuse of this software can raise legal and ethical issues which I don't support nor can be held responsible for.
