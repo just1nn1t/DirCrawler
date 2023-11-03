@@ -21,7 +21,7 @@ scandir() {
 main() {
   #checks the number of command-line arguments
   if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <base_url> <wordlist_file>"
+    echo "Usage: $0 ./dircrawler.sh <baseurl> <wordlist>"
     exit 1
   fi
 
