@@ -17,6 +17,7 @@ scandir() {
 }
 
 main() {
+  #checks the number of command-line arguments
   if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <base_url> <wordlist_file>"
     exit 1
