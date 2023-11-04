@@ -16,7 +16,7 @@ git clone https://github.com/just1nn1t/dircrawler.git
 
 chmod +x dircrawler.sh
 
-./dircrawler.sh http://example.com wordlist.txt
+./dircrawler.sh http://example.com/ wordlist.txt
 
 ```
 
