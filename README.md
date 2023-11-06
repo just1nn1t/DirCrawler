@@ -6,7 +6,7 @@ DirCrawler is a bash script that allows you to scan a website for directories an
 
 ```bash
 
-git clone https://github.com/just1nn1t/dircrawler.git
+git clone https://github.com/just1nn1t/DirCrawler.git
 
 ```
 
