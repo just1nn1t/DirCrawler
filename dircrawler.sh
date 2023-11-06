@@ -21,7 +21,7 @@ scandir() {
 main() {
   #checks the number of command-line arguments
   if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 ./dircrawler.sh <baseurl> <wordlist>"
+    echo "Usage: $0 ./dircrawler.sh <http://example.com> <wordlist>"
     exit 1
   fi
 
@@ -44,11 +44,13 @@ main() {
 }
 
 cat << "EOF"
+
  ____  ____  ____   ___  ____    __    _    _  __    ____  ____ 
 (  _ \(_  _)(  _ \ / __)(  _ \  /__\  ( \/\/ )(  )  ( ___)(  _ \
  )(_) )_)(_  )   /( (__  )   / /(__)\  )    (  )(__  )__)  )   /
 (____/(____)(_)\_) \___)(_)\_)(__)(__)(__/\__)(____)(____)(_)\_)
                                                           by 1nn1t
+------------------------------------------------------------------
 
 EOF
 
