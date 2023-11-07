@@ -34,7 +34,7 @@ main() {
     exit 1
   fi
 
-  #check if the 'curl' command is available
+  #check if 'curl' is available
   if ! command -v curl &> /dev/null; then
     echo "curl is required but not installed. Please install curl."
     exit 1
