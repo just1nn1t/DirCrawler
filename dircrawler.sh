@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#Copyright © 2023 just1nn1t
+#All rights reserved. This project is licensed under GitHub's default copyright laws,
+#meaning that I retain all rights to my source code and no one may reproduce, distribute, or create derivative works from my work.
+ 
 scandir() {
   baseurl="$1"
   wordlist="$2"
