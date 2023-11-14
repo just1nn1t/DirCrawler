@@ -4,7 +4,7 @@
 #All rights reserved. This project is licensed under GitHub's default copyright laws,
 #meaning that I retain all rights to my source code and no one may reproduce, distribute, or create derivative works from my work.
  
-scandir() {
+scan_dir() {
   baseurl="$1"
   wordlist="$2"
 
@@ -46,7 +46,7 @@ main() {
     exit 1
   fi
 
-  scandir "$baseurl" "$wordlist"
+  scan_dir "$baseurl" "$wordlist"
 }
 
 cat << "EOF"
