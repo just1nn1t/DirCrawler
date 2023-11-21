@@ -1,16 +1,9 @@
 #!/bin/bash
 
 #Copyright © 2023 just1nn1t
-#date 2023-11-03
-#version 1.0
-#LICENSE:
 #All rights reserved. This project is licensed under GitHub's default copyright laws,
-#meaning that I retain all rights to my source code and no one may reproduce, distribute,
-#or create derivative works from my work.
-#LEGAL NOTICE:
-#THIS SOFTWARE IS PROVIDED FOR EDUCATIONAL PURPOSES ONLY!
-#This tool is meant for research and educational purposes only
-#and any malicious usage of this tool is prohibited.
+#meaning that I retain all rights to my source code and no one may reproduce, distribute, or create derivative works from my work.
+#This tool is meant for research and educational purposes only and any malicious usage of this tool is prohibited.
 
 scan_dir() {
   baseurl="$1"
