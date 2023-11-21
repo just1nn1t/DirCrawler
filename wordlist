@@ -18,6 +18,7 @@ debug
 install
 scripts
 phpinfo.php
+sitemap.xml
 xmlrpc.php
 wsdl
 sql
