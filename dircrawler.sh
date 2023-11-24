@@ -29,7 +29,7 @@ main() {
     echo
     echo "Usage: $0 <http://example.com> <wordlist>"
     echo
-    exit 1
+    exit 101
   fi
 
   baseurl="$1"
@@ -38,13 +38,13 @@ main() {
   #check if the wordlist exists
   if [ ! -f "$wordlist" ]; then
     echo "Wordlist not found: $wordlist"
-    exit 1
+    exit 101
   fi
 
   #check if 'curl' is available
   if ! command -v curl &> /dev/null; then
     echo "curl is required but not installed. Please install curl."
-    exit 1
+    exit 101
   fi
 
   scan_dir "$baseurl" "$wordlist"
