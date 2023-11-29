@@ -29,7 +29,7 @@ main() {
     echo
     echo "Usage: $0 <http://example.com> <wordlist>"
     echo
-    exit 0
+    exit 1
   fi
 
   baseurl="$1"
@@ -38,7 +38,7 @@ main() {
   #check if the wordlist exists
   if [ ! -f "$wordlist" ]; then
     echo "Wordlist not found: $wordlist"
-    exit 0
+    exit 1
   fi
 
   #check if 'curl' is available
