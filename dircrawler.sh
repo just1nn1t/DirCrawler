@@ -6,7 +6,7 @@
 #distribute, or create derivative works from my work.
 #This tool is meant for research and educational purposes only and any malicious usage of this tool is prohibited.
 
-scan_dir() {
+scandir() {
   baseurl="$1"
   wordlist="$2"
 
