@@ -48,7 +48,7 @@ main() {
     exit 101
   fi
 
-  scan_dir "$baseurl" "$wordlist"
+  scandir "$baseurl" "$wordlist"
 }
 
 cat << "EOF"
